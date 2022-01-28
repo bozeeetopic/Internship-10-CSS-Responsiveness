@@ -1,0 +1,26 @@
+/*--nav-section--*/
+/*--what-is-section--*/
+/*--why-become-section--*/
+/*--events-section--*/
+/*--after-sub-section--*/
+
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+}
+
+@media only screen and (min-width: 0px) {
+  /*--nav-section--*/
+
+/*--what-is-section--*/
+
+/*--why-become-section--*/
+
+/*--events-section--*/
+
+/*--after-sub-section--*/
+
+}
