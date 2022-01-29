@@ -1,15 +1,103 @@
+/*--global--*/
 /*--nav-section--*/
 /*--what-is-section--*/
 /*--why-become-section--*/
 /*--events-section--*/
 /*--after-sub-section--*/
 
+/*green - rgb(68, 199, 155)*/
+/*blue - rgb(109, 165, 227)*/
+/*red - rgb(174, 37, 54)*/
+/*purple - rgb(176, 135, 237)*/
+/*gray bacground - rgba(188, 206, 224, 0.12)*/
+
 @media only screen and (min-width: 769px) {
-  /*--nav-section--*/
+
+/*--global--*/
+
+h1 {
+  font-size: 80px;
+  line-height: 86px;
+}
+
+/*--nav-section--*/
+
+.hamburger{
+  display: none;  
+}
+
+.navbar {
+  position: static;
+  flex-direction: row;
+  align-items: center;
+  height: auto;
+  width: auto;
+  top: 0;
+}
+
+.navbar__item {
+  margin-left: 37px;
+  margin-top: 0;
+}
+
+.navbar__item a,
+.navbar__item button {
+  font-weight: 600;
+  font-size: 16px;
+}
 
 /*--what-is-section--*/
 
+.what-is h1{
+  font-size: 112px;
+  line-height: 120px;
+}
+
+.what-is__upper-text {
+  width: 780px;
+}
+
+.what-is__items-wrapper{
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  align-items: center;
+  margin-left: 112px;
+  margin-right: 112px;
+}
+
+.what-is__item:nth-child(n/2) {
+  padding-right: 10%;
+}
+
+.what-is__padding {
+  right: 148px;
+}
+
 /*--why-become-section--*/
+
+.why-become {
+  padding-right: 0;
+}
+
+.why-become__text{
+  max-width: 700px;
+  margin-left: 60px;
+}
+
+.why-become__container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.why-become__container__image {
+  background-image: url(./../assets/reasons-members.png);
+  height: 100vw;
+  max-height: 740px;
+  margin-left: -48px;
+  width:60vw;
+}
 
 /*--events-section--*/
 
