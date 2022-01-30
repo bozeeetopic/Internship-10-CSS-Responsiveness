@@ -329,7 +329,7 @@ nav > a img{
   background-color: rgba(188, 206, 224, 0.12);
   top:0;
   bottom: 96px;
-  left:0;
+  left:-2000px;
   right: 40px;
   position: absolute;
   border-radius: 6px;
