@@ -1,0 +1,60 @@
+/*--global--*/
+/*--nav-section--*/
+/*--what-is-section--*/
+/*--why-become-section--*/
+/*--events-section--*/
+/*--after-sub-section--*/
+
+/*green - rgb(68, 199, 155)*/
+/*blue - rgb(109, 165, 227)*/
+/*red - rgb(174, 37, 54)*/
+/*purple - rgb(176, 135, 237)*/
+/*gray bacground - rgba(188, 206, 224, 0.12)*/
+
+@media only screen and (min-width: 1025px) {
+
+/*--global--*/
+
+/*--nav-section--*/
+
+/*--what-is-section--*/
+
+.what-is__upper-text {
+  margin-left: 216px;
+}
+
+.what-is__items-wrapper{
+  justify-content: center;
+  flex-wrap: nowrap;
+  max-width: 100%;
+}
+
+.what-is__item {
+max-height: 300px;
+max-width: 280px;
+}
+
+/*--why-become-section--*/
+
+.why-become__text {
+  margin-left: 162px;
+}
+
+.why-become h1 {
+  font-size: 112px;
+  line-height: 120px;
+}
+
+/*--events-section--*/
+/*--after-sub-section--*/
+
+.after-sub {
+ max-width: 1440px;
+}
+
+.after-sub h1{
+  margin-right: 24px;
+  max-width: 500px;
+ }
+
+}

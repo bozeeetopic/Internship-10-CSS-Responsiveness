@@ -115,12 +115,13 @@ nav {
   flex-direction: column;
   align-items: center;
   position:absolute;
-  height: 100vh;
+  height: 100%;
   width: 100vw;
   top:-400vw;
   left:-17px;
   background-color: white;
   transition: all 0.5s ease-in-out;
+  z-index: 2;
 }
 
 .hidden {
@@ -363,11 +364,6 @@ nav > a img{
  max-width: 408px;
 }
 
-.after-sub__text {
-  display: flex;
-  justify-content: flex-start;
-}
-
 .after-sub__text h1{
   width: 300px;
   margin-bottom: 60px;
@@ -379,7 +375,7 @@ nav > a img{
 }
 
 .after-sub__item:not(.after-sub__item:last-child) {
-  margin-bottom: 100px;
+  padding-bottom: 100px;
 }
 
 .after-sub__item h2 {
@@ -388,4 +384,8 @@ nav > a img{
 
 .after-sub__item h5 {
   margin-bottom: 8px;
+}
+
+.after-sub__item p {
+  max-width: 208px;
 }

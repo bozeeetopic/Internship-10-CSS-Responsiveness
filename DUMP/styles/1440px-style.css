@@ -1,0 +1,54 @@
+/*--global--*/
+/*--nav-section--*/
+/*--what-is-section--*/
+/*--why-become-section--*/
+/*--events-section--*/
+/*--after-sub-section--*/
+
+/*green - rgb(68, 199, 155)*/
+/*blue - rgb(109, 165, 227)*/
+/*red - rgb(174, 37, 54)*/
+/*purple - rgb(176, 135, 237)*/
+/*gray bacground - rgba(188, 206, 224, 0.12)*/
+
+@media only screen and (min-width: 1441px) {
+
+ /*--global--*/
+
+ body {
+display: flex;
+justify-content: center;
+ }
+
+ .body-center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 1440px;
+  overflow-y: hidden;
+}
+
+.max-width-container {
+  width: 1440px;
+}
+
+/*--nav-section--*/
+
+/*--what-is-section--*/
+
+.what-is {
+  position: static;
+}
+
+.what-is__padding {
+  top: 248px;
+  height: 600px;
+}
+
+/*--why-become-section--*/
+
+/*--events-section--*/
+
+/*--after-sub-section--*/
+
+}

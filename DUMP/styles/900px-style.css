@@ -1,0 +1,38 @@
+/*--global--*/
+/*--nav-section--*/
+/*--what-is-section--*/
+/*--why-become-section--*/
+/*--events-section--*/
+/*--after-sub-section--*/
+
+/*green - rgb(68, 199, 155)*/
+/*blue - rgb(109, 165, 227)*/
+/*red - rgb(174, 37, 54)*/
+/*purple - rgb(176, 135, 237)*/
+/*gray bacground - rgba(188, 206, 224, 0.12)*/
+
+@media only screen and (min-width: 900px) {
+  
+/*--global--*/
+
+/*--nav-section--*/
+
+/*--what-is-section--*/
+
+/*--why-become-section--*/
+
+.why-become__container__image {
+  height: 740px;
+  width: 430px;
+}
+
+.why-become__container__items-wrapper {
+  padding-right: 48px;
+}
+
+/*--events-section--*/
+
+
+/*--after-sub-section--*/
+
+}
