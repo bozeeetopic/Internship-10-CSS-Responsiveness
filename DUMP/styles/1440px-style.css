@@ -39,12 +39,9 @@ section {
 /*--what-is-section--*/
 
 .what-is {
-  position: static;
-}
-
-.what-is__padding {
-  top: 248px;
-  height: 600px;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
 }
 
 /*--why-become-section--*/
@@ -53,11 +50,11 @@ section {
 
 .events {
   width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
-.events .max-width-container {
-  width: 100vw;
-}
 
 /*--after-sub-section--*/
 

@@ -15,14 +15,32 @@
 
 /*--global--*/
 
+.link-border {
+  display: inline-block;
+}
+
+.link-border:after {
+  transition: all ease-in-out 0.5s;
+  border-bottom: solid rgb(68, 199, 155) 2px;
+  display: block;
+  content: "";
+  width: 0;
+}
+
+.link-border:hover:after {
+  width: 100%;
+}
+
 h1 {
   font-size: 56px;
   line-height: 60px;
 }
+
 h2 {
   font-size: 112px;
   line-height: 120px;
 }
+
 /*--nav-section--*/
 
 .hamburger{
@@ -75,6 +93,7 @@ h2 {
 }
 
 .what-is__padding {
+  top:64px;
   right: 148px;
 }
 
@@ -102,11 +121,11 @@ h2 {
 .why-become__container__image {
   background-image: url(./../assets/reasons-members.png);
   height: 654px;
-  max-height: 740px;
   margin-left: -48px;
   margin-right: 40px;
   width: 380px;
 }
+
 /*--events-section--*/
 
 .events__padding{

@@ -43,6 +43,7 @@ max-width: 280px;
 .why-become h1 {
   font-size: 112px;
   line-height: 120px;
+  width: 900px;
 }
 
 /*--events-section--*/

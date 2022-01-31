@@ -90,8 +90,9 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0 24px;
+  padding:24px;
   height: 97px;
+  margin-top: 12px;
 }
 
 .hamburger{
@@ -209,7 +210,7 @@ nav > a img{
   justify-content: space-between;
   max-width: 280px;
   background-color: white;
-  border-radius: 6px;
+  border-radius: 24px;
   z-index: 1;
   box-shadow: 0px 0px 8px 10px rgba(188, 206, 224, 0.12); 
 }
@@ -234,7 +235,7 @@ nav > a img{
   left:0;
   right: 40px;
   position: absolute;
-  border-radius: 6px;
+  border-radius: 24px;
 }
 
 /*--why-become-section--*/
@@ -322,7 +323,7 @@ nav > a img{
 .events img {
   width: 288px;
   height: 176px;
-  border-radius: 6px;
+  border-radius: 24px;
 }
 
 .events__padding {
@@ -332,7 +333,7 @@ nav > a img{
   left:-2000px;
   right: 40px;
   position: absolute;
-  border-radius: 6px;
+  border-radius: 24px;
 }
 
 .events__wrapper {
